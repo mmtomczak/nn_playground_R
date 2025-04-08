@@ -1,0 +1,16 @@
+Package: tfmodel
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mateusz", "Tomczak", , "mm.tomczak3@student.uw.edu.pl", role = c("aut", "cre"),
+           comment = c(ORCID = "432561"))
+Description: Used to create simple neural network that can integrates with shiny application.
+  For the package to work prior installation of python for R and keras is required.
+License: GPL-2
+Imports:
+  R6,
+  keras,
+  purrr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
